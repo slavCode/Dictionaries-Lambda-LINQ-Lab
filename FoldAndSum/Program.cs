@@ -7,14 +7,19 @@ namespace FoldAndSum
     {
         static void Main()
         {
-            var numbers = Console.ReadLine().Split(' ');
+            var numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
             var k = numbers.Length / 4;
-            var firstRow = numbers.Take(k).Reverse().Concat(numbers.Skip(3 * k).Reverse()).Select(int.Parse);
-            var secondRow = numbers.Skip(k).Take(2 * k).Select(int.Parse).ToArray();
-            var sum = firstRow.Select((x, i) => x + secondRow[i]).ToArray();
+            var firstRow = numbers.Take(k)
+                                  .Reverse()
+                                  .Concat(numbers.Skip(3 * k)
+                                  .Reverse());
+            var secondRow = numbers.Skip(k)
+                                   .Take(2 * k)
+                                   .ToArray();
+            var sum = firstRow.Select((x, i) => x + secondRow[i])
+                              .ToArray();
 
             Console.WriteLine(String.Join(" ", sum));
-
         }
     }
 }
