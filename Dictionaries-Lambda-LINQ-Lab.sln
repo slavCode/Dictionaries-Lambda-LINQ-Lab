@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssociativeArrays", "AssociativeArrays\AssociativeArrays.csproj", "{9C997795-AE9E-4628-A851-48FE22671514}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddOccurrences", "OddOccurrences\OddOccurrences.csproj", "{A56D568E-43B3-444D-AB47-F91D72300F7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{9C997795-AE9E-4628-A851-48FE22671514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C997795-AE9E-4628-A851-48FE22671514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C997795-AE9E-4628-A851-48FE22671514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A56D568E-43B3-444D-AB47-F91D72300F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56D568E-43B3-444D-AB47-F91D72300F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56D568E-43B3-444D-AB47-F91D72300F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56D568E-43B3-444D-AB47-F91D72300F7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
